@@ -30,14 +30,10 @@
     border: none;
     color: black;
 }
-.botao: hover{
-    background-color: black;
-    color: white;
-}
 #resultado{
     background-color: white
     width 207px;
-    height:207px;
+    height: 207px;
     margin: 5px;
     color: black;
     text-align: right;
