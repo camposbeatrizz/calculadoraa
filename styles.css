@@ -1,21 +1,20 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 .fundo{
-    background-image:linear-gradient(45deg,grey, black);
-    height:100vh;
-    color:black;
-    font-family:'Times New Roman', Times, serif;
+    background-image: linear-gradient(45deg, rgb(236, 236, 236), rgb(57, 40, 204));
+    height: 100vh;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    
 }
 .Calculadora{
     position: absolute;
-    background-color: rgba(222, 219, 219, 0.7);
+    background-color: rgba(72, 22, 172, 0.7);
     top: 50%;
-    top: 50%;
-    transform:translate(-50%, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 15px;
     padding: 15px;
     font-size: 20px;
@@ -26,17 +25,17 @@
     margin: 3px;
     font-size: 25px;
     cursor: pointer;
-    background-color: grey;
+    background-color: rgb(255, 246, 246);
     border: none;
     color: black;
 }
-.botap:hover{
-    background-color:black;
-    color:white
+.botao:hover{
+    background-color: black;
+    color: white;
 }
 #resultado{
     background-color: white;
-    width 207px;
+    width: 207px;
     height: 30px;
     margin: 5px;
     color: black;
